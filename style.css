@@ -517,7 +517,7 @@ footer img {
         height:0;
       }
       .home-header h2 {
-        margin-top: 40px;
+        margin-top: 30px;
         font-size: 7pt;
         line-height: 14px;
         width: 115px;
@@ -650,6 +650,21 @@ footer img {
         line-height: 30pt;
       }
 }
+
+@media only screen and (min-width: 400px) {
+      .home-header h2 {
+        margin-top: 40px;
+        font-size: 7pt;
+        line-height: 14px;
+        width: 115px;
+        letter-spacing: 1pt;
+        padding: 12px;
+        font-family: avenir-semi-bold, sans-serif;
+        color: black;
+        margin-left: 10px;
+      }
+}
+
 
 @media only screen and (min-width: 700px) {
     .tile-board {
