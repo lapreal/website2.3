@@ -33,6 +33,86 @@ body {
     font-family: avenir, sans-serif;
 }
 
+.buttonspace {
+  padding: 30px 10px 20px 10px;
+}
+
+.buttonspace a {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-family: avenir-semi-bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display:block; 
+  margin: 0 auto;
+  padding: 20px 50px 20px 50px;
+  border-radius: 15px;
+}
+
+.button1 {
+  background-color: #2C2C2C; 
+  color: white; 
+}
+
+.button1:hover {
+  background-color: #ACACAC;
+  color: white;
+}
+.new-work-container a:hover {
+  color: #2d2d2d;
+}
+
+.new-work-container a {
+color: rgb(71, 71, 71);
+}
+
+.new-work-container h3 {
+display: block;
+justify-content:center;
+text-align: center;
+font-family: avenir-medium, sans-serif;
+font-size: 24pt;
+margin: auto;
+padding: 20px 150px 20px 150px;
+line-height: 35px;
+color: #414042;
+}
+.new-work-container p {
+display: flex;
+justify-content: center;
+font-family: avenir, sans-serif;
+font-size: 12pt;
+margin: auto;
+color: gray;
+line-height: 20pt;
+padding-bottom: 80px;
+}
+.new-work-container h1 {
+  font-family: avenir-semi-bold, sans-serif;
+  font-size: 30pt;
+  color: black;
+  padding: 30px 150px 10px 150px;
+  text-align: center;
+  position: relative;
+  line-height: 40px;
+}
+.new-design-layout h1 {
+  font-family: avenir-semi-bold, sans-serif;
+  font-size: 40pt;
+  color: black;
+  padding: 50px 150px 50px 150px;
+  text-align: center;
+  position: relative;
+  line-height: 75px;
+}
 .contact h2 {
     padding-top: 0;
     font-family: avenir-thin, sans-serif;
@@ -474,6 +554,91 @@ footer img {
     display: block;
     position: relative;
 }
+
+.buttonspace {
+  padding: 30px 10px 20px 10px;
+}
+
+.buttonspace a {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-family: avenir-semi-bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display:block; 
+  margin: 0 auto;
+  padding: 15px 20px 15px 20px;
+  border-radius: 15px;
+}
+
+.button1 {
+  background-color: #2C2C2C; 
+  color: white; 
+}
+
+.button1:hover {
+  background-color: #ACACAC;
+  color: white;
+}
+.new-work-container a:hover {
+  color: #2d2d2d;
+}
+
+.new-work-container a {
+color: rgb(71, 71, 71);
+}
+
+.new-work-container h3 {
+display: block;
+justify-content:center;
+text-align: center;
+font-family: avenir-medium, sans-serif;
+font-size: 14pt;
+margin: auto;
+padding: 20px 20px 20px 20px;
+line-height: 30px;
+color: #414042;
+}
+.new-work-container p {
+display: block;
+justify-content: center;
+text-align: center;
+font-family: avenir, sans-serif;
+font-size: 9pt;
+margin: auto;
+color: gray;
+line-height: 20pt;
+padding-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.new-work-container h1 {
+  font-family: avenir-semi-bold, sans-serif;
+  font-size: 18pt;
+  color: black;
+  padding: 30px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+  line-height: 30px;
+}
+.new-design-layout h1 {
+  font-family: avenir-semi-bold, sans-serif;
+  font-size: 20pt;
+  color: black;
+  padding: 50px 30px 50px 30px;
+  text-align: center;
+  position: relative;
+  line-height: 30px;
+}
+
 footer img {
   width: 40px;
   height: auto;
@@ -664,6 +829,89 @@ footer img {
         color: black;
         margin-left: 10px;
       }
+      .buttonspace {
+        padding: 30px 10px 20px 10px;
+      }
+      
+      .buttonspace a {
+        text-decoration: none;
+      }
+      
+      .button {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        font-family: avenir-semi-bold;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        display:block; 
+        margin: 0 auto;
+        padding: 20px 50px 20px 50px;
+        border-radius: 15px;
+      }
+      
+      .button1 {
+        background-color: #2C2C2C; 
+        color: white; 
+      }
+      
+      .button1:hover {
+        background-color: #ACACAC;
+        color: white;
+      }
+      .new-work-container a:hover {
+        color: #2d2d2d;
+      }
+      
+      .new-work-container a {
+      color: rgb(71, 71, 71);
+      }
+      
+      .new-work-container h3 {
+      display: block;
+      justify-content:center;
+      text-align: center;
+      font-family: avenir-medium, sans-serif;
+      font-size: 14pt;
+      margin: auto;
+      padding: 20px 50px 20px 50px;
+      line-height: 30px;
+      color: #414042;
+      }
+      .new-work-container p {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      font-family: avenir, sans-serif;
+      font-size: 9pt;
+      margin: auto;
+      color: gray;
+      line-height: 20pt;
+      padding-bottom: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
+      }
+      .new-work-container h1 {
+        font-family: avenir-semi-bold, sans-serif;
+        font-size: 18pt;
+        color: black;
+        padding: 30px 50px 10px 50px;
+        text-align: center;
+        position: relative;
+        line-height: 30px;
+      }
+      .new-design-layout h1 {
+        font-family: avenir-semi-bold, sans-serif;
+        font-size: 20pt;
+        color: black;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+        position: relative;
+        line-height: 30px;
+      }
 }
 
 
@@ -676,6 +924,88 @@ footer img {
       height: 100%;
       display: block;
       position: relative;
+  }
+  .buttonspace {
+    padding: 30px 10px 20px 10px;
+  }
+  
+  .buttonspace a {
+    text-decoration: none;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: avenir-semi-bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display:block; 
+    margin: 0 auto;
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+  }
+  
+  .button1 {
+    background-color: #2C2C2C; 
+    color: white; 
+  }
+  
+  .button1:hover {
+    background-color: #ACACAC;
+    color: white;
+  }
+  .new-work-container a:hover {
+    color: #2d2d2d;
+  }
+  
+  .new-work-container a {
+  color: rgb(71, 71, 71);
+  }
+  
+  .new-work-container h3 {
+  display: block;
+  justify-content:center;
+  text-align: center;
+  font-family: avenir-medium, sans-serif;
+  font-size: 18pt;
+  margin: auto;
+  padding: 20px 100px 20px 100px;
+  line-height: 35px;
+  color: #414042;
+  }
+  .new-work-container p {
+  display: flex;
+  justify-content: center;
+  font-family: avenir, sans-serif;
+  font-size: 12pt;
+  margin: auto;
+  color: gray;
+  line-height: 20pt;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+  .new-work-container h1 {
+    font-family: avenir-semi-bold, sans-serif;
+    font-size: 26pt;
+    color: black;
+    padding: 30px 100px 10px 100px;
+    text-align: center;
+    position: relative;
+    line-height: 40px;
+  }
+  .new-design-layout h1 {
+    font-family: avenir-semi-bold, sans-serif;
+    font-size: 40pt;
+    color: black;
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
   }
     h1 {
       font-family: avenir-semi-bold, sans-serif;
@@ -837,6 +1167,88 @@ footer img {
       visibility: hidden;
 
     }
+
+    .buttonspace {
+      padding: 30px 10px 20px 10px;
+    }
+    
+    .buttonspace a {
+      text-decoration: none;
+    }
+    
+    .button {
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 35px;
+      font-family: avenir-semi-bold;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      display:block; 
+      margin: 0 auto;
+      padding: 20px 50px 20px 50px;
+      border-radius: 15px;
+    }
+    
+    .button1 {
+      background-color: #2C2C2C; 
+      color: white; 
+    }
+    
+    .button1:hover {
+      background-color: #ACACAC;
+      color: white;
+    }
+    .new-work-container a:hover {
+      color: #2d2d2d;
+    }
+    
+    .new-work-container a {
+    color: rgb(71, 71, 71);
+    }
+    
+    .new-work-container h3 {
+    display: block;
+    justify-content:center;
+    text-align: center;
+    font-family: avenir-medium, sans-serif;
+    font-size: 24pt;
+    margin: auto;
+    padding: 20px 150px 20px 150px;
+    line-height: 35px;
+    color: #414042;
+    }
+    .new-work-container p {
+    display: flex;
+    justify-content: center;
+    font-family: avenir, sans-serif;
+    font-size: 12pt;
+    margin: auto;
+    color: gray;
+    line-height: 20pt;
+    padding-bottom: 80px;
+    }
+    .new-work-container h1 {
+      font-family: avenir-semi-bold, sans-serif;
+      font-size: 30pt;
+      color: black;
+      padding: 30px 150px 10px 150px;
+      text-align: center;
+      position: relative;
+      line-height: 40px;
+    }
+    .new-design-layout h1 {
+      font-family: avenir-semi-bold, sans-serif;
+      font-size: 40pt;
+      color: black;
+      padding: 50px 150px 50px 150px;
+      text-align: center;
+      position: relative;
+      line-height: 75px;
+    }
+
     .hero-image {
       width: 100%;
       height: 100%;
