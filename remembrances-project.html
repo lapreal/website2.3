@@ -10,7 +10,7 @@
 		<link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
 	</head>
 	<body>
-		<div id="mySidenav" class="sidenav">
+	<!---	<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<ul>
 				<li><a href="index.html">WORK</a></li>
@@ -18,8 +18,8 @@
 				<li><a href="resume.html">RÉSUMÉ</a></li>
 				<br><br>
 				<li><a href="contact.html">CONNECT</a></li>
-			</ul>
-			<!---scripts for sidebar menu--->
+			</ul> ---!>
+			<!---scripts for sidebar menu---> 
   		<script>
   			function openNav() {
 
@@ -34,15 +34,15 @@
 		</div>
         <header class="other-header">
 
-                <a href="index.html"><img class="home-logo" src="images/logo-black.png" alt="samantha lapreal prince logo"></a>
+                <a href="index.html"><img class="home-logo" src="images/lapreal-logo-black@2x.png" alt="samantha lapreal prince logo"></a>
 								<i style="font-size:40px;cursor:pointer;color:black;padding:10px 0 10px 10px;position:absolute;right:10px;" onclick="openNav()">&#9776;</i>
 
 								 <nav class="other-nav">
-                    <ul>
+                 <!--   <ul>
                          <li><a href="index.html">WORK</a></li>
 						 <li><a href="resume.html">RÉSUMÉ</a></li>
 						 <li><a href="contact.html">CONNECT</a></li>
-                     </ul>
+                     </ul> --!>
                 </nav>
             </div>
         </header>
@@ -117,11 +117,14 @@
 			</div>
 		</main>
 		<footer>
-			<a href="https://www.linkedin.com/in/samanthalapreal/" target="_blank" rel="noopener noreferrer"> <img src="images/linkedin-icon.png" alt="linkedin website logo"></a>
-          	<a href="https://www.upwork.com/freelancers/~011b0a2984559fffdf"> <img src="images/upwork-icon.png" alt="upwork icon"></a>
-          	<a href="mailto:samanthalapreal@gmail.com"> <img src="images/email-icon.png" alt="email icon"></a>
-          	<a href="https://dribbble.com/lapreal" target="_blank" rel="noopener noreferrer"> <img src="images/dribbble-icon.png" alt="dribbble website logo"></a>
-            <p>copyright &#169; 2022 samantha lapreal prince</p>
+        <footer class="bottom-links">
+			<a href="https://www.linkedin.com/in/samanthalapreal/" target="_blank" rel="noopener noreferrer"> <img src="images/linkedin-logo.png" alt="linkedin website logo"></a>
+			  <a href="https://www.facebook.com/samanthalapreal/" target="_blank" rel="noopener noreferrer"> <img src="images/facebook.png" alt="facebook website logo"></a>
+			  <a href="https://www.instagram.com/lapreal.design/" target="_blank" rel="noopener noreferrer"> <img src="images/instagram.png" alt="instagram website logo"></a>
+            <p>copyright &#169; 2022 lapreal design</p>
+			<a href="terms-of-service.html">terms + conditions</a>
+			<a href="privacy-policy.html">privacy policy</a>
+        </footer>
 			<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 			<script type="text/javascript" src="venobox/venobox.js"></script>
 			<script>
@@ -129,6 +132,4 @@
 					$('.venobox').venobox(); 
 				  });
 				</script>
-        </footer>
-	</body>
 </html>
